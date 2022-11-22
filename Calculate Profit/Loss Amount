@@ -1,0 +1,6 @@
+cost_price = int(input('Enter cost price'))
+selling_price = int(input('Enter selling price'))
+
+outcome = selling_price - cost_price
+
+print(outcome)
