@@ -1,0 +1,8 @@
+Total_friends = int(input('Enter number of friends'))
+Subtotal_bill = int(input('Enter Subtotal_bill amount'))
+Tax = (20/100) * Subtotal_bill
+Total_bill = Subtotal_bill + Tax
+
+Bill_per_friend = Total_bill / Total_friends
+
+print(Bill_per_friend)
