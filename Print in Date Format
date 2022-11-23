@@ -1,0 +1,6 @@
+# get inputs
+day = input()
+month = input()
+year = input()
+
+print(month+'/'+day+'/'+year)
