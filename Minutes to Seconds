@@ -1,0 +1,5 @@
+Minutes = int(input('Enter minutes'))
+Seconds = Minutes * 60
+
+print(Seconds)
+
