@@ -1,0 +1,10 @@
+Number_of_chocolates = int(input('Enter number of chocolates'))
+Number_of_children = int(input('Enter number of children'))
+
+Number_of_C_for_each_child = Number_of_chocolates // Number_of_children
+# C stands for chocolates 
+Remaining_Chocolates = Number_of_chocolates % Number_of_children
+
+print(Number_of_C_for_each_child)
+print(Remaining_Chocolates)
+#we can use \n to have a single print for both lines
