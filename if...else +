@@ -1,0 +1,11 @@
+#10% discount = 0.1
+#if the cost of PQ is > 1000
+#cost = 1*100
+
+quantity = int(input('Enter purcahsed quantity'))
+Cost = quantity * 100
+Discount = Cost * 0.1
+if Cost > 1000:
+    print(Cost - Discount)
+else:
+    print("Not eligible for discount")
