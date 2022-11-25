@@ -3,5 +3,7 @@ Value_B = int(input('Enter value B'))
 
 if Value_A > Value_B:
     print(Value_A)
-else:
+elif:
     print(Value_B)
+else:
+    print(Both are equal)
