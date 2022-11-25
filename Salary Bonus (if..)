@@ -1,0 +1,11 @@
+#bonus is 5% = 0,05
+#if year of service > 5years, 
+#ask user for their salary
+#ask user for their year of service
+#print the net bonus amount = if ys > 5, ys + ys*0.05
+
+Salary = int(input('Enter Salary'))
+YS = int(input('Enter Year of service'))
+Bonus = Salary * 0.05
+if YS > 5:
+    print(Salary + Bonus)
