@@ -1,0 +1,9 @@
+#check for square
+
+lenght = int(input('Enter lenght'))
+breadth = int(input('Enter breadth'))
+
+if lenght == breadth:
+    print("it is a square")
+else:
+    print("it is a rectangle")
