@@ -1,0 +1,14 @@
+#grading system
+mark = int(input('Enter mark'))
+if mark < 25:
+    print("F")
+elif mark is 25 < 45:
+    print("E")
+elif mark is 45 < 50:
+    print("D")
+elif mark is 50 < 60:
+    print("C")
+elif mark is  60 < 80:
+    print("B")
+else:
+    print("A")
