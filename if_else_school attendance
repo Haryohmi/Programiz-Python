@@ -1,0 +1,11 @@
+#not allowed if attendance < 75%
+
+Number_of_class_held = float(input('Enter NCH'))
+Number_of_classes_attended = float(input('NCA'))
+
+Percentage_of_classes_attended = Number_of_classes_attended / Number_of_class_held
+
+if Percentage_of_classes_attended > 0.75:
+    print('Student is allowed')
+else:
+    print('Student is not allowed')
