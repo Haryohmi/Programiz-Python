@@ -1,0 +1,7 @@
+Value_A = int(input('Enter value A'))
+Value_B = int(input('Enter value B'))
+
+if Value_A > Value_B:
+    print(Value_A)
+else:
+    print(Value_B)
