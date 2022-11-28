@@ -1,0 +1,13 @@
+#if year_of_service > 5: add actual_bonus to salary
+
+
+
+
+salary = float(input('Enter salary'))
+year_of_service = int(input('Enter year of service'))
+bonus_percentage = 0.05
+bonus_amount = salary * bonus_percentage
+total_amount = salary + bonus_amount
+    
+
+print(bonus_amount)
