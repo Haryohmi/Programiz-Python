@@ -1,0 +1,5 @@
+n = int(input('Enter number'))
+
+for number in range(6, 9+1):
+    answer = n * number
+    print(n,'times', number, 'is', answer)
