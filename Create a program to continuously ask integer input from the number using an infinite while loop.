@@ -1,0 +1,8 @@
+while True:
+    
+    number = int(input('Enter number'))
+    if number < 1 or number >100:
+            break
+    print(number)
+        
+    
