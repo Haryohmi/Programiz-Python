@@ -1,0 +1,7 @@
+choice = str(input('What do you like?'))
+if choice == 'Car' or choice == 'car':
+    print('I like Car')
+elif choice == 'Bike' or choice == 'bike':
+    print('I like Bike')
+else:
+    print()
