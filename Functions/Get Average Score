@@ -1,0 +1,11 @@
+def get_average_score(scores):
+    total = sum(scores)
+    count = len(scores)
+    average = total / count
+    return average
+    
+scores = [55, 64, 75, 80, 65]
+
+average = get_average_score(scores)
+print(average)
+    
