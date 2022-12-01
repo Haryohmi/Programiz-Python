@@ -1,0 +1,10 @@
+def get_product(number1, number2):
+    result = number1 * number2
+    return result
+    
+    
+n1 = int(input())
+n2 = int(input())
+
+total = get_product(n1, n2)
+print(total)
