@@ -1,0 +1,2 @@
+movie = 'Snowpiercer'
+print(movie[3])
