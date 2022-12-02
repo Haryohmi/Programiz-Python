@@ -1,0 +1,7 @@
+text1 = str(input())
+text2 = str(input())
+
+new_text1 = (text1[:4])
+new_text2 = (text2[-4: ])
+result = new_text1 + new_text2
+print(result)
