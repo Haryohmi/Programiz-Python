@@ -1,0 +1,9 @@
+price = {'apple': 2.5, 'kiwi': 3.4}
+
+price['apple'] = 3.5
+
+print(price)
+
+price['banana'] = 3
+
+print(price)
